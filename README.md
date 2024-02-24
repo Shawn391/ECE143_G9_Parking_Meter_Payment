@@ -2,7 +2,7 @@
 
 Visualization of San Diego Parking meter system based on historical location and payment data
 
-Team members: Xiang Gao, Yuchuan Li, Tianyue Li, Divij, Anshul
+Team members: Xiang Gao, Yuchuan Li, Tianyue Li, Anshul Devnani, Divij Divij
 
 # Data sources:
 
