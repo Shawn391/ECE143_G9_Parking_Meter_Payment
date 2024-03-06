@@ -1,4 +1,4 @@
-# Parking-Meter-System
+# San Diego Parking Meter Data Analysis and Visualization
 
 Visualization of San Diego Parking meter system based on historical location and payment data
 
