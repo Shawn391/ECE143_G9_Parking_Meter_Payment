@@ -1,0 +1,11 @@
+csv
+Jupyter
+PyTorch
+inplicit
+notebook
+pandas
+torch 
+Ridge  
+numpy   
+random  
+matplotlib.pyplot 
