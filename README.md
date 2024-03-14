@@ -71,7 +71,7 @@ treas_parking_payments_2023_datasd.csv: https://data.sandiego.gov/datasets/parki
 ### Prerequisites
 Clone the repository:
 ```
-git clone https://github.com/Shawn391/parking-meter-payment
+git clone https://github.com/Shawn391/ECE143_G9_Parking_Meter_Payment
 ```
 #### Third Party Modules
 Install the following dependencies:
