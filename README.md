@@ -16,27 +16,61 @@
 </p>
 
 
-# Data sources:
+<!------------------------------------------ TABLE OF CONTENTS ---------------------------------------------------------->
+<details open="open">
+  <summary><h2 style="display: inline-block"> Table of Contents </h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project"> About The Project </a>
+      <ul>
+        <li><a href="#data-sources"> Data Sources </a></li>
+        <li><a href="#job-to-be-done"> Job To Be Done </a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started"> Getting Started </a>
+      <ul>
+        <li><a href="#prerequisites"> Prerequisites </a></li>
+        <li><a href="#how-to-run"> How To Run </a></li>
+      </ul>
+    </li>
+    <li><a href="#file-architecture"> File Architecture </a></li>
+  </ol>
+</details>
+
+<!------------------------------------------ About The Project ---------------------------------------------------------->
+## About The Project
+
+### Data sources:
 Visualization of San Diego Parking Meter System based on historical location and payment datasets
 
 treas_parking_meters_loc_datasd.csv: 	https://data.sandiego.gov/datasets/parking-meters-locations/
 
 treas_parking_payments_2023_datasd.csv: https://data.sandiego.gov/datasets/parking-meters-transactions/
+### Job To Be Done
 
-# Files
 
-ECE 143 Group 9 Project.pdf: Final presentation slides
 
-data_visualization.ipynb: Visualization of ...
+<!------------------------------------------ Getting Started ---------------------------------------------------------->
+## Getting Started
+### Prerequisites
+Clone the repository:
+```
+git clone https://github.com/Shawn391/parking-meter-payment
+```
+#### Third Party Modules
+Install the following dependencies:
+* csv  
+* Ridge  
+* numpy   
+* random  
+* matplotlib.pyplot 
 
-treas_parking_meters_loc_datasd.csv: original dataset including ....  
-
-treas_parking_payments_2023_datasd.csv: original dataset including ....  
-
-...: processed dataset of....
-
-# How to run these scripts
-## For data analysis:
+or alternatively run,
+```
+pip install -r requirements.txt
+```
+### How To Run
 
 data_preprocessing.py:
 1. Download ....csv and ....csv
@@ -58,11 +92,14 @@ data_statistic.py:
 4. More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
 5. Run
 
+<!------------------------------------------ File Architecture  ---------------------------------------------------------->
+## File Architecture
+ECE 143 Group 9 Project.pdf: Final presentation slides
 
-# Third Party Modules
-csv  
-Ridge  
-numpy  
-LogisticRegression  
-random  
-matplotlib.pyplot  
+data_visualization.ipynb: Visualization of ...
+
+treas_parking_meters_loc_datasd.csv: original dataset including ....  
+
+treas_parking_payments_2023_datasd.csv: original dataset including ....  
+
+...: processed dataset of....
