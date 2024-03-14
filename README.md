@@ -112,34 +112,43 @@ pip install -r requirements.txt
 ```
 ### How To Run
 
-data_preprocessing.py:
-1. Download ....csv and ....csv
-2. Ensure the script and datasets are the in the same directory
-3. Ensure all third party modules are installed
-4. Run
+1. Data_Preprocessing: pre_process.py
+* Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023_datasd.csv
+* Ensure the script and datasets are the in the same directory
+* Ensure all third party modules are installed
+* Run
+2. data_statistic.py:
+* Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023_datasd.csv
+* Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
+* Ensure all third party modules are installed
+* More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
+* Run
+3. data_visualization.ipynb:
+* Download all raw data files
+* Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
+* Ensure all third party modules are installed
+* More detailed description step by step can be found in the ipynb file, hope you can find something interesting results in this file.
+* Run
 
-data_visualization.ipynb:
-1. Download all raw data files
-2. Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
-3. Ensure all third party modules are installed
-4. More detailed description step by step can be found in the ipynb file, hope you can find something interesting results in this file.
-5. Run
-
-data_statistic.py:
-1. Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023_datasd.csv
-2. Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
-3. Ensure all third party modules are installed
-4. More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
-5. Run
 
 <!------------------------------------------ File Architecture  ---------------------------------------------------------->
 ## File Architecture
-ECE 143 Group 9 Project.pdf: Final presentation slides
-
-data_visualization.ipynb: Visualization of ...
-
-treas_parking_meters_loc_datasd.csv: original dataset including ....  
-
-treas_parking_payments_2023_datasd.csv: original dataset including ....  
-
-...: processed dataset of....
+```
+[ECE143_G9_Parking_Meter_Payment]
+├─ 📁revenue_analysis
+    ├─ 📄allYear.json
+    ├─ 📄get_all.ipynb
+    ├─ 📄my_list.json
+├─ 📁time_analysis_eric
+    ├─ 📄parking_percentage_by_hours_per_area.csv
+    ├─ 📄parking_time_by_area_weekday.csv
+    ├─ 📄parking_time_by_area_weekend.csv
+    ├─ 📄parking_time_by_hours_per_area.csv
+    ├─ 📄pre_process.py
+    ├─ 📄preprocess_func.py
+├─ 📄map_visualization.ipynb
+├─ 📄rev_analysis.ipynb
+├─ 📄LICENSE
+├─ 📄requirements.txt
+├─ 📄README.md
+```
