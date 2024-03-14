@@ -75,7 +75,13 @@ git clone https://github.com/Shawn391/ECE143_G9_Parking_Meter_Payment
 ```
 #### Third Party Modules
 Install the following dependencies:
-* csv  
+* csv
+* Jupyter
+* PyTorch
+* inplicit
+* notebook
+* pandas
+* torch 
 * Ridge  
 * numpy   
 * random  
