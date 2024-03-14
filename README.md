@@ -52,7 +52,7 @@ With a proposed solution that encompasses data analysis, visualization, we expec
 This initiative reflects our commitment to improving urban mobility in San Diego, contributing to a more accessible and efficiently managed city. Through our project, we aspire to make a contribution for how data can be utilized to solve real-world transportation challenges, making San Diego a better city to live and study.
 
 ### Key Questions 
-* When are the peak hours and days for parking meter transactions in San Diego, and how do they vary across different areas?
+* When are the peak hours for parking meter transactions in San Diego, and how do they vary across different areas?
 * Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
 * Can we predict revenue generation for different parking zones based on historical transaction data and location information?
 * How does parking demand change between weekday and weekend, and are there opportunities for seasonal adjustments in parking management policies?
