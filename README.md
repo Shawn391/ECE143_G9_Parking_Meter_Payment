@@ -50,20 +50,40 @@ The necessity for this project arises from the growing complexities of city life
 With a proposed solution that encompasses data analysis, visualization, we expect to get results that not only aids in strategic budgeting and resource allocation but also enhances the parking experience for everyone involved. The real-world application of our project envisions a future where finding a parking spot in San Diego is no longer a hassle but a seamless part of city living, guided by data-driven insights and policies.
 
 This initiative reflects our commitment to improving urban mobility in San Diego, contributing to a more accessible and efficiently managed city. Through our project, we aspire to make a contribution for how data can be utilized to solve real-world transportation challenges, making San Diego a better city to live and study.
+
 ### Key Questions 
 * When are the peak hours and days for parking meter transactions in San Diego, and how do they vary across different areas?
 * Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
 * Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
 * How does parking demand change between weekday and weekend, and are there opportunities for seasonal adjustments in parking management policies?
 * What is the approximate probability of finding available parking spaces at a certain location during a specific time period?
+
 ### Data sources
-Visualization of San Diego Parking Meter System based on historical location and payment datasets
+Visualization of San Diego Parking Meter System based on historical location and payment datasets.
+Here's an overview of each dataset and the parameters we have chosen to focus on:
+
+**Parking Meters Locations Dataset:** This dataset offers comprehensive information on the placement of parking meters throughout San Diego, detailed in CSV format. It includes data on meter zones, areas, and specific locations identified by pole-ids. This rich dataset allows us to understand the spatial distribution of parking meters and identify zones with varying parking capacities and demands.
+
+**Parking Meters Transactions Dataset:** Recording all meter transactions since 2018 to 2023, this dataset is available in both raw and aggregated forms, making it invaluable for analyzing parking usage patterns and revenue generation. Time-segmented data aids in identifying peak parking hours, assessing the popularity of certain areas, and optimizing parking operations. From this dataset, we analyze parameters including:
+
+* Time information: year, month, day of the week, and approximate time of transactions, helping us understand parking demand across different times and seasons.
+* Payment details: including payment methods and transaction amounts, offering insights into revenue streams and user payment preferences.
+* Meter expiration and transaction start dates and times, providing data on parking duration and turnover rates.
 
 treas_parking_meters_loc_datasd.csv: 	https://data.sandiego.gov/datasets/parking-meters-locations/
 
 treas_parking_payments_2023_datasd.csv: https://data.sandiego.gov/datasets/parking-meters-transactions/
-### Job To Be Done
 
+### Job To Be Done
+1. Preprocess Data
+* Clean datasets by removing duplicates and irrelevant entries.
+* Link related data across datasets, such as matching locations with transactions.
+2. Analyze Data
+* Examine statistical properties and relationships between parameters like time, payment method, and meter type.
+* Identify key patterns such as peak usage times and revenue trends.
+3. Visualize Data
+* Use charts, graphs, and maps to present insights clearly.
+* Highlight parking demand, revenue patterns, and parking availability visually.
 
 
 <!------------------------------------------ Getting Started ---------------------------------------------------------->
@@ -78,14 +98,13 @@ Install the following dependencies:
 * csv
 * Jupyter
 * PyTorch
-* inplicit
 * notebook
 * pandas
-* torch 
-* Ridge  
+* torch  
 * numpy   
 * random  
-* matplotlib.pyplot 
+* matplotlib.pyplot
+* json
 
 or alternatively run,
 ```
