@@ -23,6 +23,7 @@
     <li>
       <a href="#about-the-project"> About The Project </a>
       <ul>
+        <li><a href="#key-questions"> Key Questions </a></li>
         <li><a href="#data-sources"> Data Sources </a></li>
         <li><a href="#job-to-be-done"> Job To Be Done </a></li>
       </ul>
@@ -40,8 +41,22 @@
 
 <!------------------------------------------ About The Project ---------------------------------------------------------->
 ## About The Project
+In the bustling urban landscape of San Diego, optimizing urban mobility and enhancing the parking experience stand as pivotal challenges that impact both residents and visitors alike. The essence of these challenges lies in the efficient utilization of parking spaces, a task that is instrumental in reducing congestion, improving accessibility, and maximizing the revenue generated from parking resources.
 
-### Data sources:
+Our project, driven by the City of San Diego's Open Data Portal, leverages detailed datasets on parking meter transactions and locations to embark on a comprehensive analysis and refinement of parking management strategies. These datasets, detailing meter placements, zones, transaction records since 2018, and more, offer a rich foundation for our analytical endeavors. Through this analysis, we aim to unravel patterns in parking usage, identify peak times and areas of high demand, and predict revenue generation across different parking zones. Such insights are not only crucial for improving the usability of parking spaces but also contribute significantly to the overall efficiency of urban transportation systems.
+
+The necessity for this project arises from the growing complexities of city life, where the harmonious flow of traffic and the availability of parking spaces become essential for the daily routines of countless individuals. By employing data analysis techniques and visualization tools, our project seeks to address several following key questions.
+
+With a proposed solution that encompasses data analysis, visualization, we expect to get results that not only aids in strategic budgeting and resource allocation but also enhances the parking experience for everyone involved. The real-world application of our project envisions a future where finding a parking spot in San Diego is no longer a hassle but a seamless part of city living, guided by data-driven insights and policies.
+
+This initiative reflects our commitment to improving urban mobility in San Diego, contributing to a more accessible and efficiently managed city. Through our project, we aspire to make a contribution for how data can be utilized to solve real-world transportation challenges, making San Diego a better city to live and study.
+### Key Questions 
+* When are the peak hours and days for parking meter transactions in San Diego, and how do they vary across different areas?
+* Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
+* Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
+* How does parking demand change between weekday and weekend, and are there opportunities for seasonal adjustments in parking management policies?
+* What is the approximate probability of finding available parking spaces at a certain location during a specific time period?
+### Data sources
 Visualization of San Diego Parking Meter System based on historical location and payment datasets
 
 treas_parking_meters_loc_datasd.csv: 	https://data.sandiego.gov/datasets/parking-meters-locations/
