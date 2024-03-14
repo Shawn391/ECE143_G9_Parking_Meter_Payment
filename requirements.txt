@@ -1,11 +1,8 @@
 csv
-Jupyter
-PyTorch
-inplicit
 notebook
 pandas
-torch 
-Ridge  
+torch   
 numpy   
 random  
 matplotlib.pyplot 
+json
