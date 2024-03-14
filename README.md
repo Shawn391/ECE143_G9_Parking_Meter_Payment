@@ -1,10 +1,23 @@
-# San Diego Parking Meter Data Analysis and Visualization
+<!------------------------------------------ TITLE BLOCK --------------------------------------------------------------->
+<h1 align="center"> Group 9: Analysis and Visualization of San Diego Parking Transactions </h1>
 
-Visualization of San Diego Parking meter system based on historical location and payment data
+<p align="center">
+    Course Project for UCSD ECE 143: Programming for Data Analytics
+    <br /> <br />
+    <a href="https://github.com/anshuldevnani"> Anshul Devnani </a>
+    ·
+    <a href="https://github.com/kdivij"> Divij Divij </a>
+    ·
+    <a href="https://github.com/Shawn391"> Xiang Gao </a>
+    ·
+    <a href="https://github.com/nolanlyc"> Yuchuan Li </a>
+    ·
+    <a href="https://github.com/GreatSnoopyMe"> Tianyue Li </a>
+</p>
 
-Team members: Xiang Gao, Yuchuan Li, Tianyue Li, Anshul Devnani, Divij Divij
 
 # Data sources:
+Visualization of San Diego Parking Meter System based on historical location and payment datasets
 
 treas_parking_meters_loc_datasd.csv: 	https://data.sandiego.gov/datasets/parking-meters-locations/
 
