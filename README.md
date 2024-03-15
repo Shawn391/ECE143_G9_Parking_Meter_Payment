@@ -111,24 +111,24 @@ pip install -r requirements.txt
 ```
 ### How To Run
 
-1. Data_Preprocessing: pre_process.py and preprocess_func.py
-* Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv
-* Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
+1. Data_Preprocessing: `pre_process.py` and `preprocess_func.py`
+* Download `treas_parking_meters_loc_datasd.csv` and `treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv`
+* Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
 * Run
-2. Data_Statistic: preprocess_func.py and space_occu_analysis.py
+2. Data_Statistic: `preprocess_func.py` and `space_occu_analysis.ipynb`
 * Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv
-* Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
+* Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
 * Run
-3. Data_Visualization: map_visualization.ipynb and parking_probability-final.ipynb
+3. Data_Visualization: `map_visualization.ipynb` and `parking_probability-final.ipynb`
 * Download all raw data files
-* Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
+* Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the ipynb file, hope you can find something interesting results in this file.
 * Run
-4. Revenue_Part: getAllrevenue.py
+4. Revenue_Part: `getAllrevenue.py`
 * Download all raw data files, and store the data under `revenue_analysis/dataset`
 * More detailed description step by step can be found in the `.py` file, hope you can find something interesting results in this file.
 * Run
