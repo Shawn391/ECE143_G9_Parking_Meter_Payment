@@ -117,12 +117,12 @@ pip install -r requirements.txt
 * Ensure all third party modules are installed
 * Run
 2. Data_Statistic: `preprocess_func.py` and `space_occu_analysis.ipynb`
-* Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv
+* Download `treas_parking_meters_loc_datasd.csv` and `treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv`
 * Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
 * Run
-3. Data_Visualization: `map_visualization.ipynb` and `parking_probability-final.ipynb`
+3. Data_Visualization: `map_visualization.ipynb` and `parking_probability-final.ipynb` and `rev_analysis.ipynb`
 * Download all raw data files
 * Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
