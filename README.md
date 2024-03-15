@@ -53,9 +53,8 @@ This initiative reflects our commitment to improving urban mobility in San Diego
 
 ### Key Questions 
 * When are the peak hours for parking meter transactions in San Diego, and how do they vary across different areas?
-* Which areas experience consistently high or low parking space occupancy, and are there geographical patterns in parking demand?
+* Which areas experience consistently high or low parking space occupancy?
 * Can we predict revenue generation for different parking zones based on historical transaction data and location information?
-* How does parking demand change between weekday and weekend, and are there opportunities for seasonal adjustments in parking management policies?
 * What is the approximate probability of finding available parking spaces at a certain location during a specific time period?
 
 ### Data sources
