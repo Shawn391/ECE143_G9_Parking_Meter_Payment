@@ -116,13 +116,13 @@ pip install -r requirements.txt
 * Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
 * Ensure all third party modules are installed
 * Run
-2. data_statistic.py: preprocess_func.py and space_occu_analysis.py
+2. Data_Statistic: preprocess_func.py and space_occu_analysis.py
 * Download treas_parking_meters_loc_datasd.csv and treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv
 * Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
 * Run
-3. data_visualization.ipynb:
+3. Data_Visualization: 
 * Download all raw data files
 * Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
 * Ensure all third party modules are installed
