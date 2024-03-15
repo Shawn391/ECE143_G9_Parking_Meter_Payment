@@ -111,6 +111,8 @@ pip install -r requirements.txt
 ```
 ### How To Run
 
+Since each of us is responsible for a different part, the preprocessing of the data set is different, so there is no data analysis and visualization code integrated together, and different parts need to be run. Please follow the instructions below and feel free to contact us if you have any questions.
+
 1. Data_Preprocessing: `pre_process.py` and `preprocess_func.py`
 * Download `treas_parking_meters_loc_datasd.csv` and `treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv`
 * Ensure the script and datasets are the in the same directory
