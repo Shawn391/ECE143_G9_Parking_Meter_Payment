@@ -140,17 +140,25 @@ pip install -r requirements.txt
 [ECE143_G9_Parking_Meter_Payment]
 ├─ 📁revenue_analysis
     ├─ 📄allYear.json
-    ├─ 📄get_all.ipynb
-    ├─ 📄my_list.json
+    ├─ 📄getAllrevenue.py
 ├─ 📁time_analysis_eric
     ├─ 📄parking_percentage_by_hours_per_area.csv
     ├─ 📄parking_time_by_area_weekday.csv
     ├─ 📄parking_time_by_area_weekend.csv
     ├─ 📄parking_time_by_hours_per_area.csv
+    ├─ 📄parking_time_by_area_whole_week_2020.csv
+    ├─ 📄parking_time_by_area_whole_week_2021.csv
+    ├─ 📄parking_time_by_area_whole_week_2022.csv
+    ├─ 📄parking_time_by_area_whole_week_2023.csv
+    ├─ 📄parking_time_by_hours_per_area.csv
     ├─ 📄pre_process.py
     ├─ 📄preprocess_func.py
-├─ 📄map_visualization.ipynb
-├─ 📄rev_analysis.ipynb
+    ├─ 📄space_occu_analysis.py
+├─ 📁Jupyter_notebook
+    ├─ 📄space_occu_analysis.ipynb
+    ├─ 📄map_visualization.ipynb
+    ├─ 📄rev_analysis.ipynb
+    ├─ 📄parking_probability-final.ipynb
 ├─ 📄LICENSE
 ├─ 📄requirements.txt
 ├─ 📄README.md
