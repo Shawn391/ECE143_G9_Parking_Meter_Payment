@@ -122,13 +122,13 @@ pip install -r requirements.txt
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the python file, hope you can find something interesting results in this file.
 * Run
-3. Data_Visualization: 
+3. Data_Visualization: map_visualization.ipynb and parking_probability-final.ipynb
 * Download all raw data files
 * Ensure the script and datasets are the in the same directory or change the file path in the read_csv function
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the ipynb file, hope you can find something interesting results in this file.
 * Run
-4. getAllrevenue.py
+4. Revenue_Part: getAllrevenue.py
 * Download all raw data files, and store the data under `revenue_analysis/dataset`
 * More detailed description step by step can be found in the `.py` file, hope you can find something interesting results in this file.
 * Run
