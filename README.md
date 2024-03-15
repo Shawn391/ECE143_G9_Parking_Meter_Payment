@@ -128,6 +128,10 @@ pip install -r requirements.txt
 * Ensure all third party modules are installed
 * More detailed description step by step can be found in the ipynb file, hope you can find something interesting results in this file.
 * Run
+4. getAllrevenue.py
+* Download all raw data files, and store the data under `revenue_analysis/dataset`
+* More detailed description step by step can be found in the `.py` file, hope you can find something interesting results in this file.
+* Run
 
 
 <!------------------------------------------ File Architecture  ---------------------------------------------------------->
