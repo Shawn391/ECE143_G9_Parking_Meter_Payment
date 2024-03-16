@@ -118,7 +118,7 @@ Since each of us is responsible for a different part, the preprocessing of the d
 * Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
 * Run
-2. Data_Statistic: `preprocess_func.py` and `space_occu_analysis.ipynb`
+2. Data_Statistic: `preprocess_func.py` and `space_occu_analysis.ipynb` and `peak_hour_visualization.ipynb`
 * Download `treas_parking_meters_loc_datasd.csv` and `treas_parking_payments_2023/2022/2021/2020/2019/2018_datasd.csv`
 * Ensure the script and datasets are the in the same directory
 * Ensure all third party modules are installed
@@ -161,6 +161,7 @@ Since each of us is responsible for a different part, the preprocessing of the d
     ├─ 📄map_visualization.ipynb
     ├─ 📄rev_analysis.ipynb
     ├─ 📄parking_probability-final.ipynb
+    ├─ 📄peak_hour_visualization.ipynb
 ├─ 📄LICENSE
 ├─ 📄requirements.txt
 ├─ 📄README.md
